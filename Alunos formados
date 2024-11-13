@@ -1,4 +1,4 @@
-MATCH (a:Aluno)-[:REALIZOU]->(h:Historico_Escolar)
+MATCH (a:Aluno)-[:POSSUI_HISTORICO]->(h:Historico_Escolar)
 WHERE h.ano = 2023 AND h.semestre = 1
 WITH a, h
 MATCH (h)-[:DESEMPENHO]->(n:Nota)
