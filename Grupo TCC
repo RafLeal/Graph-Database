@@ -1,0 +1,2 @@
+MATCH (g:Grupo_de_TCC)-[:INCLUI]->(a:Aluno), (g)-[:ORIENTADO_POR]->(p:Professor)
+RETURN g.tema AS tema_tcc, collect(a.nome) AS alunos, p.nome AS professor_orientador;
