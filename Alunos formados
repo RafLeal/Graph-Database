@@ -1,7 +1,7 @@
 MATCH (a:Aluno)-[:REALIZOU]->(h:Historico_Escolar)
 WHERE h.ano = 2023 AND h.semestre = 1
 WITH a, h
-MATCH (h)-[:AVALIADO_POR]->(n:Nota)
+MATCH (h)-[:DESEMPENHO]->(n:Nota)
 WITH a, collect(n.nota) AS notas
 WHERE ALL(nota IN notas WHERE nota >= 5.0)
 RETURN a.id_aluno AS id_aluno, a.nome AS aluno_nome;
