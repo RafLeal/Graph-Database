@@ -1,0 +1,2 @@
+MATCH (p:Professor)-[:CHEFIA]->(d:Departamento)
+RETURN p.nome AS nome_professor, d.nome AS nome_departamento;
