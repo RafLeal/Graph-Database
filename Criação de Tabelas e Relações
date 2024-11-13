@@ -7,7 +7,7 @@ CREATE
   (p3:Professor {id_professor: 3, nome: 'Professor 3'}),
   (d1:Disciplina {id_disciplina: 1, nome: 'Disciplina 1'}),
   (d2:Disciplina {id_disciplina: 2, nome: 'Disciplina 2'}),
-  (d3:Disciplina {id_disciplina: 2, nome: 'Disciplina 2'}),
+  (d3:Disciplina {id_disciplina: 3, nome: 'Disciplina 3'}),
   (dp1:Departamento {id_departamento: 1, nome: 'Departamento 1'}),
   (dp2:Departamento {id_departamento: 2, nome: 'Departamento 2'}),
   (dp3:Departamento {id_departamento: 3, nome: 'Departamento 3'}),
