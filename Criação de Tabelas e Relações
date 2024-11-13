@@ -51,6 +51,9 @@ CREATE
   (tcc1)-[:INCLUI]->(a1),
   (tcc2)-[:INCLUI]->(a2),
   (tcc3)-[:INCLUI]->(a3),
+  (tcc1)-[:ORIENTADO_POR]->(p1),
+  (tcc2)-[:ORIENTADO_POR]->(p2),
+  (tcc3)-[:ORIENTADO_POR]->(p3),
   (he1)-[:DESEMPENHO]->(n1),
   (he2)-[:DESEMPENHO]->(n2),
   (he3)-[:DESEMPENHO]->(n3);
