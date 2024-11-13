@@ -1,3 +1,3 @@
-MATCH (a:Aluno {id_aluno: 1})-[:REALIZOU]->(h:Historico_Escolar)-[:PERTENCE_A]->(d:Disciplina)
+MATCH (a:Aluno {id_aluno: 1})-[:POSSUI_HISTORICO]->(h:Historico_Escolar)-[:PERTENCE_A]->(d:Disciplina)
 RETURN d.nome AS nome_disciplina, h.semestre, h.ano, h.nota_final
 ORDER BY h.ano, h.semestre;  
