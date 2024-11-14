@@ -1,3 +1,3 @@
-MATCH (p:Professor {id_professor: 1})-[:MINISTRA]->(d:Disciplina)<-[:PERTENCE_A]-(h:Historico_Escolar)
-WHERE h.ano = 2022 AND h.semestre = 1
-RETURN d.nome AS nome_disciplina, h.semestre, h.ano;
+MATCH (p:Professor)-[:MINISTRA]->(d:Disciplina)<-[:PERTENCE_A]-(h:Historico_Escolar)
+RETURN p.nome AS nome_professor, d.nome AS nome_disciplina, h.semestre, h.ano
+ORDER BY p.nome, h.ano, h.semestre;
