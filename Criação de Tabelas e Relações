@@ -126,7 +126,6 @@ CREATE
   (p1)-[:CHEFIA]->(dp1),
   (p2)-[:CHEFIA]->(dp2),
   (p3)-[:CHEFIA]->(dp3),
-  (p4)-[:CHEFIA]->(dp4),
   (c1)-[:OFERECIDO_POR]->(dp1),
   (c2)-[:OFERECIDO_POR]->(dp2),
   (c3)-[:OFERECIDO_POR]->(dp3),
