@@ -9,13 +9,78 @@ Projeto Tópicos Avançãdos de Banco de Dados - 6º Ciclo - Ciencias da Computa
  - Rafael Leal Silva - RA: 22.122.029-6
  - Vitor Lucas Fujita Felício - RA: 22.122.077-5
 
+# Descrição 
+
+O objetivo deste projeto é criar uma estrutura de Graph Database, onde os dados são organizados em coleções de nós (nodes) e relacionamentos (edges), representando entidades e suas associações. Essas coleções permitem armazenar informações complexas do sistema acadêmico em um formato flexível e escalável, adequado para consultas de relacionamento. Abaixo, está a descrição das coleções de nós e relacionamentos criados para armazenar os dados:
+
+ ### Coleções de Nós (Nodes):
+
+- **Aluno:** <br>
+A coleção "Aluno" armazena informações sobre os alunos. Cada nó possui os atributos id_aluno (identificador único) e nome (nome do aluno).
+  
+- **Professor:** <br>
+A coleção "Professor" contém dados sobre professores, com cada nó possuindo id_professor (identificador único) e nome (nome do professor).
+
+- **Disciplina:** <br>
+A coleção "Disciplina" armazena as disciplinas, onde cada nó tem os atributos id_disciplina (identificador único) e nome (nome da disciplina).
+
+- **Departamento:** <br>
+"Departamento" contém nós para representar os departamentos, com id_departamento (identificador único) e nome (nome do departamento).
+
+- **Curso:** <br>
+A coleção "Curso" armazena os cursos oferecidos, onde cada nó possui id_curso (identificador único) e nome (nome do curso).
+
+- **Matriz_Curricular:** <br>
+"Matriz_Curricular" representa as diferentes matrizes curriculares associadas aos cursos, com o atributo id_matriz (identificador único da matriz).
+
+- **Historico_Escolar:** <br>
+Esta coleção armazena o histórico escolar dos alunos, com id_historico (identificador único), ano (ano letivo), semestre (semestre do ano) e nota_final (nota final do aluno).
+
+- **Grupo_de_TCC:** <br>
+"Grupo_de_TCC" representa os grupos de TCC, onde cada nó possui id_grupo_tcc (identificador do grupo) e tema (tema do TCC).
+
+- **Nota:** <br>
+A coleção "Nota" contém informações sobre as notas atribuídas, com id_nota (identificador único) e nota (valor da nota).
+  
+### Coleções de Relacionamentos (edges):
+
+- **ESTUDA_EM:** <br>
+Conecta um "Aluno" a um "Curso", representando o curso em que o aluno está matriculado.
+
+- **POSSUI_HISTORICO:** <br>
+Liga um "Aluno" a um "Historico_Escolar", indicando o histórico escolar associado ao aluno.
+
+- **PERTENCE_A:** <br> 
+Relaciona um "Historico_Escolar" a uma "Disciplina", associando o desempenho do aluno em uma disciplina específica.
+
+- **MINISTRA:** <br>
+Conecta um "Professor" a uma "Disciplina", representando a disciplina ministrada pelo professor.
+
+- **CHEFIA:** <br>
+Liga um "Professor" a um "Departamento", representando o chefe de departamento.
+
+- **OFERECIDO_POR:** <br>
+Relaciona um "Curso" a um "Departamento", representando o departamento que oferece o curso.
+
+- **TEM:** <br>
+Conecta um "Curso" a uma "Matriz_Curricular", associando a matriz curricular oferecida pelo curso.
+
+- **INCLUI:** <br>
+Conecta um "Grupo_de_TCC" a um "Aluno", representando a participação do aluno no grupo de TCC.
+
+- **ORIENTADO_POR:** <br>
+Liga um "Grupo_de_TCC" a um "Professor", indicando o professor orientador do grupo de TCC.
+
+- **DESEMPENHO:** <br>
+Conecta um "Historico_Escolar" a uma "Nota", representando a nota obtida no histórico.
+
 # Funcionamento do Código
 
  Primeiramente, é necessario acessar um site ou compilador que consiga rodar Cypher ( Para o projeto foi usado o Neo4j ).
  <br>
  Após isto, é necessario copiar e rodar o código contido no arquivo [Criação de Tabelas e Relações](https://github.com/RafLeal/Graph-Database/blob/main/Cria%C3%A7%C3%A3o%20de%20Tabelas%20e%20Rela%C3%A7%C3%B5es). 
  <br>
- Com isso, serão criadas todas os Nodes, as keys e as relações entre os nodes, para a criação das tabelas que faremos.
+ Com isso, serão criadas todas os Nodes, as keys e os edges, para a criação das tabelas de relatórios.
 
   ### 1. Historico dos Alunos
 
