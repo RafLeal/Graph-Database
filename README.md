@@ -31,7 +31,19 @@ Projeto Tópicos Avançãdos de Banco de Dados - 6º Ciclo - Ciencias da Computa
 
   ### 3. Alunos Formados
 
+  Este relatório retorna os professores e as disciplinas as quais eles ministram, trazendo nome do professor e da disciplina, junto do semestre e o ano em que foram mistradas.
+  <br>
+   Copiar código contido em [Alunos formados](https://github.com/RafLeal/Graph-Database/blob/main/Alunos%20formados) e roda-lo.
+
   ### 4. Professores Chefes de Departamentos
 
+  Este relatório retorna os professores e as disciplinas as quais eles ministram, trazendo nome do professor e da disciplina, junto do semestre e o ano em que foram mistradas.
+  <br>
+   Copiar código contido em [Professores Chefes de Departamentos](https://github.com/RafLeal/Graph-Database/blob/main/Professores%20Chefes%20de%20Departamentos) e roda-lo.
+
   ### 5. Grupos de TCC e seus orientadores
+
+  Este relatório retorna os professores e as disciplinas as quais eles ministram, trazendo nome do professor e da disciplina, junto do semestre e o ano em que foram mistradas.
+  <br>
+   Copiar código contido em [Grupo TCC](https://github.com/RafLeal/Graph-Database/blob/main/Grupo%20TCC) e roda-lo.
  
