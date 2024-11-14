@@ -21,7 +21,7 @@ Projeto Tópicos Avançãdos de Banco de Dados - 6º Ciclo - Ciencias da Computa
 
    Este relatório retorna o historico do aluno de sua escolha, contendo o(s) código(s) e nome(s) da(s) disciplina(s), o semestre, ano e nota final.
   <br>
-   Copiar o código contido em [Historico de Aluno](https://github.com/RafLeal/Graph-Database/blob/main/Historico%20de%20Aluno). Para pesquisar pelo aluno, coloque no lugar da '#' contida no código, o número de matricula do aluno ( 1 a 6 ). Depois disto, basta rodar o código. 
+   Copiar o código contido em [Historico de Aluno](https://github.com/RafLeal/Graph-Database/blob/main/Historico%20de%20Aluno). Substitua a '#' contida no código, pelo número de matricula do aluno ( 1 a 6 ). Depois disto, basta rodar o código. 
 
   ### 2. Disciplinas mistradas pelas Professores
 
@@ -31,19 +31,19 @@ Projeto Tópicos Avançãdos de Banco de Dados - 6º Ciclo - Ciencias da Computa
 
   ### 3. Alunos Formados
 
-  Este relatório retorna os professores e as disciplinas as quais eles ministram, trazendo nome do professor e da disciplina, junto do semestre e o ano em que foram mistradas.
+  Este relatório retorna os alunos que se formaram em determinado semestre e ano. O relatório traz o(s) ID(s) e nome(s) do(s) aluno(s).
   <br>
-   Copiar código contido em [Alunos formados](https://github.com/RafLeal/Graph-Database/blob/main/Alunos%20formados) e roda-lo.
+   Copiar código contido em [Alunos formados](https://github.com/RafLeal/Graph-Database/blob/main/Alunos%20formados). Substitua o '#' pelo ano ( 2022 a 2024 ), e a '!' pelo semestre ( 1 ou 2 ). Após isto, basta rodar o código.
 
   ### 4. Professores Chefes de Departamentos
 
-  Este relatório retorna os professores e as disciplinas as quais eles ministram, trazendo nome do professor e da disciplina, junto do semestre e o ano em que foram mistradas.
+  Este relatório retorna os professores e os departamentos os quais eles chefiam.
   <br>
    Copiar código contido em [Professores Chefes de Departamentos](https://github.com/RafLeal/Graph-Database/blob/main/Professores%20Chefes%20de%20Departamentos) e roda-lo.
 
   ### 5. Grupos de TCC e seus orientadores
 
-  Este relatório retorna os professores e as disciplinas as quais eles ministram, trazendo nome do professor e da disciplina, junto do semestre e o ano em que foram mistradas.
+  Este relatório retorna os grupos de TCC criados, fornecendo os nomes dos alunos, o tema do TCC, e o professor orientador.
   <br>
    Copiar código contido em [Grupo TCC](https://github.com/RafLeal/Graph-Database/blob/main/Grupo%20TCC) e roda-lo.
  
