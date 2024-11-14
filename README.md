@@ -19,11 +19,15 @@ Projeto Tópicos Avançãdos de Banco de Dados - 6º Ciclo - Ciencias da Computa
 
   ### 1. Historico dos Alunos
 
-   Este relatório retorna o historico do aluno de sua escolha, contendo nome o código e nome da(s) disciplina(s), o semestre, ano e nota final.
+   Este relatório retorna o historico do aluno de sua escolha, contendo o(s) código(s) e nome(s) da(s) disciplina(s), o semestre, ano e nota final.
   <br>
-   Copiar o código contido em [Historico de Aluno](https://github.com/RafLeal/Graph-Database/blob/main/Historico%20de%20Aluno). Para pesquisar pelo aluno, coloque no lugar da '#' contida no código, o número de matricula do aluno ( 1 a 6 ).
+   Copiar o código contido em [Historico de Aluno](https://github.com/RafLeal/Graph-Database/blob/main/Historico%20de%20Aluno). Para pesquisar pelo aluno, coloque no lugar da '#' contida no código, o número de matricula do aluno ( 1 a 6 ). Depois disto, basta rodar o código. 
 
   ### 2. Disciplinas mistradas pelas Professores
+
+  Este relatório retorna os professores e as disciplinas as quais eles ministram, trazendo nome do professor e da disciplina, junto do semestre e o ano em que foram mistradas.
+  <br>
+   Copiar código contido em [Disciplinas Professor](https://github.com/RafLeal/Graph-Database/blob/main/Disciplinas%20Professor) e roda-lo.
 
   ### 3. Alunos Formados
 
