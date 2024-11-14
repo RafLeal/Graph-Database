@@ -1,5 +1,5 @@
 MATCH (a:Aluno)-[:POSSUI_HISTORICO]->(h:Historico_Escolar)
-WHERE h.ano = 2023 AND h.semestre = 1
+WHERE h.ano = # AND h.semestre = !
 WITH a, h
 MATCH (h)-[:DESEMPENHO]->(n:Nota)
 WITH a, collect(n.nota) AS notas
